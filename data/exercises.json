@@ -1,0 +1,548 @@
+[
+  {
+    "id": "K1",
+    "area": "cinemática",
+    "concept": "velocidad media",
+    "difficulty": "baja",
+    "prompt": "Un coche recorre 120 km en 2 h. ¿Velocidad media?",
+    "correct": {
+      "value": 60,
+      "unit": "km/h",
+      "explanation": "v=d/t=120/2=60 km/h."
+    },
+    "wrong": [
+      {
+        "text": "v=120×2=240 km/h.",
+        "category": "formula",
+        "value": 240,
+        "unit": "km/h"
+      }
+    ],
+    "transfer": {
+      "prompt": "Otro coche recorre 150 km en 3 h. ¿Velocidad media?",
+      "value": 50,
+      "unit": "km/h"
+    },
+    "solution": "v=d/t=120/2=60 km/h."
+  },
+  {
+    "id": "K2",
+    "area": "cinemática",
+    "concept": "aceleración constante",
+    "difficulty": "media",
+    "prompt": "Desde reposo, un móvil acelera a 2 m/s² durante 5 s. ¿Velocidad final?",
+    "correct": {
+      "value": 10,
+      "unit": "m/s",
+      "explanation": "v=v0+at=0+2×5=10 m/s."
+    },
+    "wrong": [
+      {
+        "text": "v=at²=2×25=50 m/s.",
+        "category": "formula",
+        "value": 50,
+        "unit": "m/s"
+      }
+    ],
+    "transfer": {
+      "prompt": "Desde reposo, a=3 m/s² durante 4 s. ¿Velocidad final?",
+      "value": 12,
+      "unit": "m/s"
+    },
+    "solution": "v=v0+at=0+2×5=10 m/s."
+  },
+  {
+    "id": "K3",
+    "area": "cinemática",
+    "concept": "desplazamiento acelerado",
+    "difficulty": "media",
+    "prompt": "Desde reposo, a=4 m/s² durante 3 s. ¿Desplazamiento?",
+    "correct": {
+      "value": 18,
+      "unit": "m",
+      "explanation": "x=½at²=½×4×9=18 m."
+    },
+    "wrong": [
+      {
+        "text": "x=at²=4×9=36 m.",
+        "category": "formula",
+        "value": 36,
+        "unit": "m"
+      }
+    ],
+    "transfer": {
+      "prompt": "Desde reposo, a=2 m/s² durante 4 s. ¿Desplazamiento?",
+      "value": 16,
+      "unit": "m"
+    },
+    "solution": "x=½at²=½×4×9=18 m."
+  },
+  {
+    "id": "D1",
+    "area": "dinámica",
+    "concept": "segunda ley de Newton",
+    "difficulty": "media",
+    "prompt": "Fuerza neta de 12 N sobre masa de 3 kg. ¿Aceleración?",
+    "correct": {
+      "value": 4,
+      "unit": "m/s²",
+      "explanation": "a=F/m=12/3=4 m/s²."
+    },
+    "wrong": [
+      {
+        "text": "a=Fm=12×3=36 m/s².",
+        "category": "relacion_invertida",
+        "value": 36,
+        "unit": "m/s²"
+      }
+    ],
+    "transfer": {
+      "prompt": "Fuerza neta de 20 N sobre 5 kg. ¿Aceleración?",
+      "value": 4,
+      "unit": "m/s²"
+    },
+    "solution": "a=F/m=12/3=4 m/s²."
+  },
+  {
+    "id": "D2",
+    "area": "dinámica",
+    "concept": "fuerza neta",
+    "difficulty": "media",
+    "prompt": "Sobre 2 kg actúan 10 N a la derecha y 4 N a la izquierda. ¿Aceleración hacia la derecha?",
+    "correct": {
+      "value": 3,
+      "unit": "m/s²",
+      "explanation": "F_neta=10−4=6 N; a=6/2=3 m/s²."
+    },
+    "wrong": [
+      {
+        "text": "Las fuerzas se suman: a=(10+4)/2=7 m/s².",
+        "category": "signo",
+        "value": 7,
+        "unit": "m/s²"
+      }
+    ],
+    "transfer": {
+      "prompt": "Sobre 4 kg actúan 20 N derecha y 8 N izquierda. ¿Aceleración hacia la derecha?",
+      "value": 3,
+      "unit": "m/s²"
+    },
+    "solution": "F_neta=10−4=6 N; a=6/2=3 m/s²."
+  },
+  {
+    "id": "D3",
+    "area": "dinámica",
+    "concept": "rozamiento cinético",
+    "difficulty": "media",
+    "prompt": "Bloque sobre plano horizontal: μ=0,2, m=5 kg, g=10 m/s². ¿Módulo de rozamiento?",
+    "correct": {
+      "value": 10,
+      "unit": "N",
+      "explanation": "N=mg=50 N; F_r=μN=10 N."
+    },
+    "wrong": [
+      {
+        "text": "F_r=μm=0,2×5=1 N; g no interviene.",
+        "category": "supuesto_invalido",
+        "value": 1,
+        "unit": "N"
+      }
+    ],
+    "transfer": {
+      "prompt": "μ=0,3, m=4 kg, g=10 m/s². ¿Rozamiento?",
+      "value": 12,
+      "unit": "N"
+    },
+    "solution": "N=mg=50 N; F_r=μN=10 N."
+  },
+  {
+    "id": "E1",
+    "area": "energía",
+    "concept": "energía cinética",
+    "difficulty": "media",
+    "prompt": "Masa 2 kg a 3 m/s. ¿Energía cinética?",
+    "correct": {
+      "value": 9,
+      "unit": "J",
+      "explanation": "E_c=½mv²=½×2×9=9 J."
+    },
+    "wrong": [
+      {
+        "text": "E_c=mv²=2×9=18 J.",
+        "category": "formula",
+        "value": 18,
+        "unit": "J"
+      }
+    ],
+    "transfer": {
+      "prompt": "Masa 4 kg a 2 m/s. ¿Energía cinética?",
+      "value": 8,
+      "unit": "J"
+    },
+    "solution": "E_c=½mv²=½×2×9=9 J."
+  },
+  {
+    "id": "E2",
+    "area": "energía",
+    "concept": "energía potencial gravitatoria",
+    "difficulty": "media",
+    "prompt": "Masa 3 kg a 4 m sobre referencia; g=10 m/s². ¿Energía potencial?",
+    "correct": {
+      "value": 120,
+      "unit": "J",
+      "explanation": "E_p=mgh=3×10×4=120 J."
+    },
+    "wrong": [
+      {
+        "text": "E_p=mg/h=3×10/4=7,5 J.",
+        "category": "relacion_invertida",
+        "value": 7.5,
+        "unit": "J"
+      }
+    ],
+    "transfer": {
+      "prompt": "Masa 2 kg a 5 m; g=10 m/s². ¿Energía potencial?",
+      "value": 100,
+      "unit": "J"
+    },
+    "solution": "E_p=mgh=3×10×4=120 J."
+  },
+  {
+    "id": "E3",
+    "area": "energía",
+    "concept": "conservación de energía",
+    "difficulty": "media",
+    "prompt": "Cuerpo cae sin rozamiento desde 20 m; g=10 m/s². ¿Rapidez al llegar abajo?",
+    "correct": {
+      "value": 20,
+      "unit": "m/s",
+      "explanation": "mgh=½mv²; v=√(2gh)=√400=20 m/s."
+    },
+    "wrong": [
+      {
+        "text": "v=gh=200 m/s porque toda la altura se convierte directamente en velocidad.",
+        "category": "conservacion",
+        "value": 200,
+        "unit": "m/s"
+      }
+    ],
+    "transfer": {
+      "prompt": "Cae sin rozamiento desde 5 m; g=10 m/s². ¿Rapidez abajo?",
+      "value": 10,
+      "unit": "m/s"
+    },
+    "solution": "mgh=½mv²; v=√(2gh)=√400=20 m/s."
+  },
+  {
+    "id": "P1",
+    "area": "cantidad de movimiento",
+    "concept": "momento lineal",
+    "difficulty": "media",
+    "prompt": "Masa 3 kg se mueve a 4 m/s. ¿Momento lineal en esa dirección?",
+    "correct": {
+      "value": 12,
+      "unit": "kg·m/s",
+      "explanation": "p=mv=3×4=12 kg·m/s."
+    },
+    "wrong": [
+      {
+        "text": "p=m/v=3/4=0,75 kg·m/s.",
+        "category": "relacion_invertida",
+        "value": 0.75,
+        "unit": "kg·m/s"
+      }
+    ],
+    "transfer": {
+      "prompt": "Masa 5 kg a 2 m/s. ¿Momento lineal?",
+      "value": 10,
+      "unit": "kg·m/s"
+    },
+    "solution": "p=mv=3×4=12 kg·m/s."
+  },
+  {
+    "id": "P2",
+    "area": "cantidad de movimiento",
+    "concept": "impulso",
+    "difficulty": "media",
+    "prompt": "Fuerza constante de 5 N durante 4 s. ¿Impulso?",
+    "correct": {
+      "value": 20,
+      "unit": "N·s",
+      "explanation": "J=FΔt=5×4=20 N·s."
+    },
+    "wrong": [
+      {
+        "text": "J=F/Δt=5/4=1,25 N·s.",
+        "category": "formula",
+        "value": 1.25,
+        "unit": "N·s"
+      }
+    ],
+    "transfer": {
+      "prompt": "Fuerza de 6 N durante 3 s. ¿Impulso?",
+      "value": 18,
+      "unit": "N·s"
+    },
+    "solution": "J=FΔt=5×4=20 N·s."
+  },
+  {
+    "id": "P3",
+    "area": "cantidad de movimiento",
+    "concept": "choque inelástico",
+    "difficulty": "media",
+    "prompt": "Masa 2 kg a 6 m/s choca con masa 1 kg quieta; quedan unidas. ¿Velocidad final?",
+    "correct": {
+      "value": 4,
+      "unit": "m/s",
+      "explanation": "Se conserva p: (2×6+1×0)/(2+1)=4 m/s."
+    },
+    "wrong": [
+      {
+        "text": "Se conserva la energía cinética: v=√(2×6²/3)=√24≈4,90 m/s.",
+        "category": "conservacion",
+        "value": 4.9,
+        "unit": "m/s"
+      }
+    ],
+    "transfer": {
+      "prompt": "Masa 3 kg a 4 m/s choca con 1 kg quieta y quedan unidas. ¿Velocidad final?",
+      "value": 3,
+      "unit": "m/s"
+    },
+    "solution": "Se conserva p: (2×6+1×0)/(2+1)=4 m/s."
+  },
+  {
+    "id": "G1",
+    "area": "gravitación",
+    "concept": "ley inversa al cuadrado",
+    "difficulty": "media",
+    "prompt": "A distancia r una fuerza gravitatoria es 80 N. ¿Fuerza a 2r?",
+    "correct": {
+      "value": 20,
+      "unit": "N",
+      "explanation": "F∝1/r²; 80/4=20 N."
+    },
+    "wrong": [
+      {
+        "text": "Al duplicar r la fuerza se reduce a la mitad: 40 N.",
+        "category": "relacion_invertida",
+        "value": 40,
+        "unit": "N"
+      }
+    ],
+    "transfer": {
+      "prompt": "Si a r la fuerza es 90 N, ¿fuerza a 3r?",
+      "value": 10,
+      "unit": "N"
+    },
+    "solution": "F∝1/r²; 80/4=20 N."
+  },
+  {
+    "id": "G2",
+    "area": "gravitación",
+    "concept": "peso",
+    "difficulty": "media",
+    "prompt": "Masa 6 kg donde g=10 m/s². ¿Peso?",
+    "correct": {
+      "value": 60,
+      "unit": "N",
+      "explanation": "P=mg=6×10=60 N."
+    },
+    "wrong": [
+      {
+        "text": "El peso es 6 kg porque peso y masa son lo mismo.",
+        "category": "unidades",
+        "value": 6,
+        "unit": "kg"
+      }
+    ],
+    "transfer": {
+      "prompt": "Masa 8 kg con g=10 m/s². ¿Peso?",
+      "value": 80,
+      "unit": "N"
+    },
+    "solution": "P=mg=6×10=60 N."
+  },
+  {
+    "id": "G3",
+    "area": "gravitación",
+    "concept": "campo gravitatorio",
+    "difficulty": "media",
+    "prompt": "Fuerza gravitatoria de 30 N sobre masa de prueba de 5 kg. ¿Campo g?",
+    "correct": {
+      "value": 6,
+      "unit": "N/kg",
+      "explanation": "g=F/m=30/5=6 N/kg."
+    },
+    "wrong": [
+      {
+        "text": "g=Fm=150 N/kg.",
+        "category": "relacion_invertida",
+        "value": 150,
+        "unit": "N/kg"
+      }
+    ],
+    "transfer": {
+      "prompt": "Fuerza 40 N sobre 8 kg. ¿Campo g?",
+      "value": 5,
+      "unit": "N/kg"
+    },
+    "solution": "g=F/m=30/5=6 N/kg."
+  },
+  {
+    "id": "C1",
+    "area": "electricidad",
+    "concept": "ley de Ohm",
+    "difficulty": "media",
+    "prompt": "Resistencia de 4 Ω con tensión de 12 V. ¿Corriente?",
+    "correct": {
+      "value": 3,
+      "unit": "A",
+      "explanation": "I=V/R=12/4=3 A."
+    },
+    "wrong": [
+      {
+        "text": "I=VR=12×4=48 A.",
+        "category": "relacion_invertida",
+        "value": 48,
+        "unit": "A"
+      }
+    ],
+    "transfer": {
+      "prompt": "Resistencia 5 Ω con 20 V. ¿Corriente?",
+      "value": 4,
+      "unit": "A"
+    },
+    "solution": "I=V/R=12/4=3 A."
+  },
+  {
+    "id": "C2",
+    "area": "electricidad",
+    "concept": "resistencias en serie",
+    "difficulty": "media",
+    "prompt": "Dos resistencias de 3 Ω y 5 Ω en serie. ¿Resistencia equivalente?",
+    "correct": {
+      "value": 8,
+      "unit": "Ω",
+      "explanation": "En serie, R_eq=3+5=8 Ω."
+    },
+    "wrong": [
+      {
+        "text": "R_eq=1/(1/3+1/5)=1,875 Ω: se suman inversas en serie.",
+        "category": "formula",
+        "value": 1.875,
+        "unit": "Ω"
+      }
+    ],
+    "transfer": {
+      "prompt": "Resistencias 4 Ω y 6 Ω en serie. ¿R_eq?",
+      "value": 10,
+      "unit": "Ω"
+    },
+    "solution": "En serie, R_eq=3+5=8 Ω."
+  },
+  {
+    "id": "C3",
+    "area": "electricidad",
+    "concept": "potencia eléctrica",
+    "difficulty": "media",
+    "prompt": "Dispositivo con 6 V y 2 A. ¿Potencia?",
+    "correct": {
+      "value": 12,
+      "unit": "W",
+      "explanation": "P=VI=6×2=12 W."
+    },
+    "wrong": [
+      {
+        "text": "P=V/I=6/2=3 W.",
+        "category": "formula",
+        "value": 3,
+        "unit": "W"
+      }
+    ],
+    "transfer": {
+      "prompt": "Dispositivo con 10 V y 3 A. ¿Potencia?",
+      "value": 30,
+      "unit": "W"
+    },
+    "solution": "P=VI=6×2=12 W."
+  },
+  {
+    "id": "W1",
+    "area": "ondas",
+    "concept": "relación onda frecuencia",
+    "difficulty": "media",
+    "prompt": "Onda de frecuencia 5 Hz y longitud 2 m. ¿Velocidad?",
+    "correct": {
+      "value": 10,
+      "unit": "m/s",
+      "explanation": "v=fλ=5×2=10 m/s."
+    },
+    "wrong": [
+      {
+        "text": "v=f/λ=5/2=2,5 m/s.",
+        "category": "relacion_invertida",
+        "value": 2.5,
+        "unit": "m/s"
+      }
+    ],
+    "transfer": {
+      "prompt": "Frecuencia 4 Hz y longitud 3 m. ¿Velocidad?",
+      "value": 12,
+      "unit": "m/s"
+    },
+    "solution": "v=fλ=5×2=10 m/s."
+  },
+  {
+    "id": "W2",
+    "area": "ondas",
+    "concept": "periodo y frecuencia",
+    "difficulty": "media",
+    "prompt": "Onda de frecuencia 4 Hz. ¿Periodo?",
+    "correct": {
+      "value": 0.25,
+      "unit": "s",
+      "explanation": "T=1/f=1/4=0,25 s."
+    },
+    "wrong": [
+      {
+        "text": "T=f=4 s porque ambos indican ritmo de oscilación.",
+        "category": "relacion_invertida",
+        "value": 4,
+        "unit": "s"
+      }
+    ],
+    "transfer": {
+      "prompt": "Frecuencia 2 Hz. ¿Periodo?",
+      "value": 0.5,
+      "unit": "s"
+    },
+    "solution": "T=1/f=1/4=0,25 s."
+  },
+  {
+    "id": "W3",
+    "area": "ondas",
+    "concept": "eco",
+    "difficulty": "media",
+    "prompt": "Eco tarda 2 s en ir y volver. Velocidad del sonido 340 m/s. ¿Distancia al reflector?",
+    "correct": {
+      "value": 340,
+      "unit": "m",
+      "explanation": "d=vt/2=340×2/2=340 m."
+    },
+    "wrong": [
+      {
+        "text": "d=vt=340×2=680 m; todo el tiempo es de ida.",
+        "category": "supuesto_invalido",
+        "value": 680,
+        "unit": "m"
+      }
+    ],
+    "transfer": {
+      "prompt": "Eco tarda 3 s ida y vuelta; v=300 m/s. ¿Distancia al reflector?",
+      "value": 450,
+      "unit": "m"
+    },
+    "solution": "d=vt/2=340×2/2=340 m."
+  }
+]
